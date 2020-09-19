@@ -2,3 +2,7 @@ h1{
     font-size: 2cm;
     weight: bold;
 }
+
+.navbar-nav{
+    margin-left:auto;
+}
