@@ -29,7 +29,7 @@ h1{
 
 .jumbotron1{
     width: 550px;
-    height: 850px;
+    height: 900px;
     padding: 15px;
     margin-top: 40px;
     margin-left: 20px;
@@ -53,4 +53,8 @@ body{
     padding: 15px;
    width: 275px;
    height: 250px;
+}
+
+#exampleInputMessage1{
+    height:200px;
 }
