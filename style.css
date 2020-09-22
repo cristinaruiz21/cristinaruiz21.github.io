@@ -8,14 +8,28 @@ h1{
     margin-left:auto;
 }
 
+.navbar-brand{
+    background-color: green;
+    color: white;
+}
+
 .card-img-top{
     height:200px;
     width: 200px;
 }
 
 .jumbotron {
-    width: 450px;
-    height: 550px;
+    width: 800px;
+    height: 600px;
+    padding: 15px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-color: white;
+}
+
+.jumbotron1{
+    width: 550px;
+    height: 850px;
     padding: 15px;
     margin-top: 40px;
     margin-left: 20px;
@@ -28,4 +42,15 @@ body{
 
 .btn-primary{
     background-color: green;
+}
+
+.img-thumbnail{
+    height: 250px;
+    width: 300px;
+}
+
+.img-thumbnail1{
+    padding: 15px;
+   width: 275px;
+   height: 250px;
 }
