@@ -10,7 +10,14 @@ h1{
 
 .navbar-brand{
     background-color: green;
+}
+
+.navbar-light .navbar-brand{
     color: white;
+}
+
+.nav-link{
+    color: black;
 }
 
 .card-img-top{
@@ -57,4 +64,10 @@ body{
 
 #exampleInputMessage1{
     height:200px;
+}
+
+.footer{
+    position: absolute;
+    background-color: black;
+    height: 100px;
 }
