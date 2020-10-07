@@ -5,7 +5,8 @@
 h1{
     font-size: 1cm;
     weight: bold;
-    color: green;
+    color: black;
+    font-family: 'Oswald', sans-serif;
 }
 
 .navbar-nav{
@@ -13,15 +14,15 @@ h1{
 }
 
 .navbar-brand{
-    background-color: green;
+    font-family: 'Oswald', sans-serif;
 }
-
-.navbar-light .navbar-brand{
-    color: white;
+.navbar{
+    background-color: rgb(182, 214, 255);
 }
 
 .nav-link{
     color: black;
+    font-family: 'Oswald', sans-serif;
 }
 
 .card-img-top{
@@ -52,7 +53,7 @@ body{
 }
 
 .btn-primary{
-    background-color: green;
+    background-color: rgb(108, 133, 214);
 }
 
 .img-thumbnail{
