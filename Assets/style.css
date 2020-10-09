@@ -11,7 +11,7 @@ h1{
     font-size: 1cm;
     weight: bold;
     color: black;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .navbar-nav { 
@@ -19,7 +19,8 @@ h1{
 } 
 
 nav{
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
 }
 .navbar{
     background-color: rgb(182, 214, 255);
@@ -27,7 +28,11 @@ nav{
 
 .nav-link{
     color: black;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Open Sans', sans-serif;
+}
+label{
+    font-family: 'Open Sans', sans-serif;;
+    font-weight:
 }
 
 .card-img-top{
@@ -37,7 +42,7 @@ nav{
 
 .jumbotron {
     width: 800px;
-    height: 400px;
+    height: 500px;
     padding: 15px;
     margin-top: 40px;
     margin-left: 20px;
@@ -45,8 +50,8 @@ nav{
 }
 
 .jumbotron1{
-    width: 1000px;
-    height: 900px;
+    width: 900px;
+    height: 700px;
     padding: 15px;
     margin-top: 40px;
     margin-left: 20px;
@@ -69,6 +74,7 @@ body{
 
 .btn-primary{
     background-color: rgb(108, 133, 214);
+    font-family: 'Open Sans', sans-serif;
 }
 
 .img-thumbnail{
@@ -93,20 +99,44 @@ body{
   bottom: 0; */
   width: 100%;
   background-color: rgba(0,0,0, 0.6);
-  height: 50px;
+  height: 40px;
+}
+.footer1{
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(0,0,0, 0.6);
+  color:rgba(0,0,0, 0.6);
+  text-align: center;
+  height: 40px;
 }
 
 .content-inside{
     width: 100%;
     height: 100px;
-
 }
 
 .col-md-8{
-    line-height: 1.5;
+    line-height: 1.7;
+    font-family: 'Open Sans', sans-serif;
 }
 
 .content{
-    min-height: 100%;
+    min-height: 80%;
     margin-bottom: -50px;
+}
+
+@media screen and (max-width:700px){
+    .jumbotron, .jumbotron1, .jumbotron2, .content{
+        width: 100%;
+        height: 100%;
+        margin-right: 15px;
+    }
+    .navbar{
+        width: 100%;
+    }
+    .img-thumbnail1{
+        width: 90%;
+    }
 }
