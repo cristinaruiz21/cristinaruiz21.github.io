@@ -32,7 +32,7 @@ nav{
 }
 label{
     font-family: 'Open Sans', sans-serif;;
-    font-weight:
+    /* font-weight: */
 }
 
 .card-img-top{
@@ -40,16 +40,20 @@ label{
     width: 200px;
 }
 
-.jumbotron {
+/* .jumbotron {
     width: 800px;
     height: 500px;
     padding: 15px;
     margin-top: 40px;
     margin-left: 20px;
     background-color: white;
+} */
+
+.container{
+    background-color: white;
 }
 
-.jumbotron1{
+/* .jumbotron1{
     width: 900px;
     height: 500px;
     padding: 15px;
@@ -57,8 +61,8 @@ label{
     margin-left: 20px;
     background-color: white;
     border-radius: 1%;
-}
-.jumbotron2{
+} */
+/* .jumbotron2{
     width: 800px;
     height: 580px;
     padding: 15px;
@@ -66,7 +70,7 @@ label{
     margin-left: 20px;
     background-color: white;
     border-radius: 1%;
-}
+} */
 
 body{
     background-color: silver;
@@ -137,11 +141,11 @@ body{
 
 
 @media screen and (max-width:700px){
-    .jumbotron, .jumbotron1, .jumbotron2, .content{
-        width: 100%;
+    /* .jumbotron, .jumbotron1, .jumbotron2, .content{ */
+        /* width: 100%;
         height: 100%;
         margin-right: 15px;
-    }
+    } */
     .navbar{
         width: 100%;
     }
