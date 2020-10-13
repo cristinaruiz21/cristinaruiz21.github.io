@@ -40,37 +40,15 @@ label{
     width: 200px;
 }
 
-/* .jumbotron {
-    width: 800px;
-    height: 500px;
-    padding: 15px;
-    margin-top: 40px;
-    margin-left: 20px;
-    background-color: white;
-} */
-
 .container{
     background-color: white;
 }
 
-/* .jumbotron1{
-    width: 900px;
-    height: 500px;
-    padding: 15px;
-    margin-top: 40px;
-    margin-left: 20px;
-    background-color: white;
-    border-radius: 1%;
-} */
-/* .jumbotron2{
-    width: 800px;
-    height: 580px;
-    padding: 15px;
-    margin-top: 40px;
-    margin-left: 20px;
-    background-color: white;
-    border-radius: 1%;
-} */
+.caption{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
 
 body{
     background-color: silver;
