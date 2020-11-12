@@ -51,7 +51,7 @@ label{
 }
 
 .container{
-    background-color:white;
+    background-color:rgb(221, 217, 217);
     color: black;
     padding-bottom: 15px;
     padding-top: 10px;
@@ -65,7 +65,7 @@ label{
 }
 
 body{
-    background-color: #edf2fb;
+    background-color: white;
 }
 
 .btn-primary{
