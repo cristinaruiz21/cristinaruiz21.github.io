@@ -26,6 +26,7 @@ h1{
 nav{
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
+    height: 120px;
 }
 .navbar{
     background-color: #abc4ff;
@@ -36,10 +37,7 @@ nav{
     font-family: 'Open Sans', sans-serif;
 }
 
-.navbar-toggler-icon{
-    background-color: lightgray;
 
-}
 label{
     font-family: 'Open Sans', sans-serif;;
     /* font-weight: */
@@ -65,7 +63,10 @@ label{
 }
 
 body{
-    background-color: white;
+    background-image: url("../Assets/background-white-elegant-texture.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
 }
 
 .btn-primary{
