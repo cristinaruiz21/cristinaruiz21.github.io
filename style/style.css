@@ -15,25 +15,13 @@ h1{
 }
 
 .navbar-nav { 
-    margin-left: auto; 
+    margin-left: auto;
 } 
 
-.navbar-brand{
-    font-size: 40px;
-    color: white;
-}
-
-nav{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    height: 120px;
-}
 .navbar{
     background-color: #abc4ff;
-    color: white;
 }
 .nav-link{
-    color: white;
     font-family: 'Open Sans', sans-serif;
 }
 
@@ -54,8 +42,8 @@ label{
     padding-bottom: 15px;
     padding-top: 10px;
     margin-top: 20px;
+    margin-bottom: 40px;
 }
-
 .caption{
     text-align: center;
     font-family: 'Open Sans', sans-serif;
@@ -136,19 +124,11 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
-.links{
-    font-family: 'Open Sans', sans-serif;
-    font-weight: 400;
-    color: black;
-    border-radius: 7%;
-    padding-top: 15px;
-    padding-bottom: 50px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-top: 15px;
-    margin-left: 15px;
-    margin-bottom: 50px;
-    width: 500px;
+
+.jumbotron{
+    background-color: rgb(250, 240, 241);
+    text-align: center;
+    margin-bottom: 0%;
 }
 
 
